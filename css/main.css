@@ -48,6 +48,7 @@ html {
 	background-image: url('../images/ibx/pexels-lukas-574071.jpg');
 	opacity: 1;
 
+	align-content: center;
 
 
 
@@ -55,7 +56,9 @@ html {
 
 .basic {
 	height: 100%;
+	align-content: center;
 	background: #000000bb;
+	display: flex;
 }
 
 
@@ -528,11 +531,11 @@ main {
 	text-align: center;
 }
 
-main::after {
+/* main::after {
 	content: "";
 	display: block;
 	height: 150px;
-}
+} */
 
 main h1 {
 	font: 38px/1.2em "montserrat-bold", sans-serif;
